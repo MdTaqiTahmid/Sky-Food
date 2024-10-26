@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.card{
+    @apply bg-white rounded overflow-hidden shadow-md relative;
+}
+.bage{
+    @apply bg-gray-50 text-gray-500 rounded-full uppercase font-bold p-2 absolute top-0 mt-2 ml-2 pr-4 pb-2 pl-4;
+}
+.btn{
+    @apply rounded-full px-2 py-2 font-bold uppercase couser-pointer;
+}
